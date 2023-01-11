@@ -67,8 +67,14 @@ form .form-group #submit {
     border-radius: 30px;
     outline: none;
     color: whitesmoke;
+    cursor: pointer;
+    transition-duration: 0.5s;
 }
-
+form .form-group #submit:hover{
+    color: #f1c40f;
+    background: #e74c3c;
+    border: 1px solid #00a8ff;
+}
 .tille {
     text-align: center;
     font-size: 30px;
@@ -76,11 +82,11 @@ form .form-group #submit {
     color: #00a8ff;
 }
 
-.output {
+.outputs {
     margin-top: 50px;
     
 }
-.output .item{
+.outputs .item{
     margin-bottom: 10px;
     background: #f1c40f94;
     color: #00a8ff;
@@ -91,7 +97,7 @@ form .form-group #submit {
     border: 1px solid #e74c3c;
     border-radius: 8px;
 }
-.output .item span {
+.outputs .item span {
     color: #e67e22;
     margin-left: 20px;
 }

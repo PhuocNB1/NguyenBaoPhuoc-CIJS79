@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory</title>
+    <link rel="stylesheet" href="./Directory.css">
+
+</head>
+
+<body onload="renderDirectory()">
+    <div id="wrapper">
+        <div class="content">
+            <h1 class="title">DIRECTORY</h1>
+            <div class="registrasion">
+                <input type="text" id="inputName" placeholder="Tên">
+                <input type="text" id="inputPhone" placeholder="Điện thoại">
+                <button onclick="save()" type="submit" id="submit">Thêm</button>
+            </div>
+            <hr>
+            <div class="directory">
+                <input type="search" id="search" placeholder="Tìm kiếm">
+                <button onclick="findData()" type="submit" id="submitSearch">Tìm</button>
+                <button onclick="deleteDuplicate(index)" type="submit" id="submitDel">Xóa trùng</button>
+            </div>
+            <div class="outputs" id="outputs"> </div>
+            <!-- <div class="outputs" id="outputsFind" style="display: none;"> </div> -->
+        </div>
+    </div>
+
+    <script src="./Directory.js"></script>
+</body>
+
+</html>

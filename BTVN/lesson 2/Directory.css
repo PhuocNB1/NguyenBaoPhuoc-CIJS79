@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #12CBC4, #1289A7, #0652DD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    width: 500px;
+    height: 600px;
+    background: whitesmoke;
+    border-radius: 13px;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+    color: #0652DD;
+}
+
+.registrasion {
+    margin-bottom: 15px;
+}
+
+.registrasion #inputName,
+#inputPhone {
+    width: 180px;
+    height: 0px auto;
+    padding: 10px 0px;
+    outline: none;
+    border: 1px solid #00a8ff;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.registrasion #submit {
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    background: #00a8ff;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0 2px #1289A7;
+}
+
+#submit:hover {
+    background-color: #0652DD;
+}
+
+#submit:active {
+    background-color: #00a8ff;
+    box-shadow: 0 1px #1289A7;
+    transform: translateY(1px);
+}
+
+hr {
+    border: 1px solid #0652DD;
+}
+
+.directory {
+    margin-top: 10px;
+}
+
+.directory #search {
+    width: 300px;
+    height: 0px auto;
+    padding: 10px 0px;
+    outline: none;
+    border: 1px solid #00a8ff;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.directory #submitSearch {
+    width: 60px;
+    height: 40px;
+    background: #00a8ff;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0 2px #1289A7;
+}
+
+.directory #submitDel {
+    width: 90px;
+    height: 40px;
+    background: #00a8ff;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0 2px #1289A7;
+}
+
+#submitSearch:hover,
+#submitDel:hover {
+    background-color: #0652DD;
+}
+
+#submitSearch:active,
+#submitDel:active {
+    background-color: #00a8ff;
+    box-shadow: 0 1px #1289A7;
+    transform: translateY(1px);
+}
+.outputs {
+    margin-top: 20px;
+    
+}
+.outputs .Item{
+    margin-bottom: 5px;
+    background: white;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 14px;
+    border: 1px solid #0652DD;
+    border-radius: 8px;
+}
+
+.Name,.Phone{
+    color: #0652DD;
+
+}
